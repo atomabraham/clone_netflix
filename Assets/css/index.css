@@ -1,0 +1,241 @@
+/*Le premier block*/
+#firstBlock{
+    width: 100.9%;
+    height: 665px;
+    z-index: 1;
+    background-image: url("../img/CM-en-20230612-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-size: cover;
+}
+#childFirstBlock{
+    width: 100.9%;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.596);
+}
+#lineLogoLink{
+    margin-top: 3%;
+}
+#logo{
+    width: 100%;
+    height: 90%;
+}
+#linkSing{
+    height: 80%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #E50914;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+}
+#linkSing:hover{
+    background-color: #ca0610;
+}
+/*Le block des paragraphes*/
+#FirstText{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 18%;
+    font-family:Arial black;
+}
+#secondText{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+#thirdText{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+/*le block de recherche*/
+#inputSearch{
+    width: 100%;
+    height: 58px;
+    border: 1px rgba(255, 255, 255, 0.568) solid;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+}
+#inputSearch::placeholder{
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 15px;
+    padding-left: 10px;
+}
+#submitButton{
+    color: white;
+    background-color: 	#E50914;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    height: 58px;
+    border-radius: 3px;
+}
+#submitButton:hover{
+    background-color: #ca0610;
+}
+/*ligne 1*/
+.line{
+    width: 100.9%;
+    height: 10px;
+    background-color: #232323;
+}
+/*le block enjoy (secondBlock)*/
+#secondBlock{
+    width: 100.9%;
+    background-color: black;
+    z-index: 0;
+}
+#secondBlock .row{
+    padding: 10%;
+    padding-bottom: 5%;
+    z-index: 0;
+}
+#enjoyText{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+#watchText{
+    color: white;
+    font-size: 25px;
+}
+#firstImage{
+    margin-top: -20%;
+    width: 100%;
+}
+/*le block du téléphone (thirdBlock)*/
+#thirdBlock{
+    width: 100.9%;
+    background-color: black;
+}
+#thirdBlock .row{
+    padding: 10%;
+    padding-bottom: 5%;
+}
+/*le quatrième block*/
+#fourthBlock{
+    width: 100.9%;
+    background-color: black;
+}
+#fourthBlock .row{
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#everywhereText{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1.5;
+}
+#watchText{
+    color: white;
+    font-size: 25px;
+}
+/*Faq*/
+#Faq{
+    width: 100.9%;
+    background-color: black;
+}
+#Faq .row{
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%; 
+}
+#titleFaq{
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.question{
+    background-color: #353535;
+    width: 100%;
+    display: flex;
+    box-shadow: black 0px 1px 1px 0px;
+    margin-top: 50%;
+    z-index: 1;
+}
+.question:hover{
+    background-color: #4e4e4e;
+    cursor: pointer;
+}
+.titleQuestion{
+    color: white;
+    margin-left: 1%;
+    padding-top: 2%;
+    font-size: 25px;
+}
+.buttonPlus{
+    color: white;
+    font-weight: bold;
+    margin-left: 1%;
+    margin-top: 20%;
+}
+.divAnswers{
+    margin-top: 10px;
+    background-color: #353535;
+    display: none;
+}
+.answer{
+    color: white;
+    font-size: 25px;
+    margin-top: 2%;
+}
+#question2{
+    margin-top: 1%;
+}
+#question3{
+    margin-top: 1%;
+}
+#question4{
+    margin-top: 1%;
+}
+#question5{
+    margin-top: 1%;
+}
+#question6{
+    margin-top: 1%;
+}
+/*second block de rechertche*/
+#thirdText2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: -8%;
+}
+#inputSearch2{
+    width: 100%;
+    height: 58px;
+    border: 1px rgba(255, 255, 255, 0.568) solid;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+}
+#inputSearch2::placeholder{
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 15px;
+    padding-left: 10px;
+}
+#submitButton2{
+    color: white;
+    background-color: 	#E50914;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    height: 58px;
+    border-radius: 3px;
+}
+#submitButton2:hover{
+    background-color: #ca0610;
+}
+.block2{
+    margin-top: 10%;
+}
